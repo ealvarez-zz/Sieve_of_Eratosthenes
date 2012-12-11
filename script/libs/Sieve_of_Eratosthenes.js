@@ -1,6 +1,6 @@
 var generatePrimes = function (maxValue) {
 
-    if (maxValue > 2) {
+    if (maxValue >= 2) {
 
         // Declarar variables
         var s = maxValue + 1; //Tamano del arreglo
